@@ -34,10 +34,23 @@
     };
     var options = {
         container:'jsmind_container',
-        editable:true,
+        editable:false,
         theme:'primary'
     };
+
     var jm = new jsMind.show(options,mind);
 
-    jm.set_theme(theme)  //设置主题
+    // jm.set_theme(theme);  //设置主题
+    // jm.disable_edit()
+    document.getElementById("getData").onclick = function () {
+        console.log(jm.get_data("node_tree"));
+    };
+
 })();
+
+
+var jsMd = {
+    success : function () {
+        
+    }
+}
