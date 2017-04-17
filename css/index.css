@@ -10,3 +10,10 @@
     width: 80px;
     height: 24px;
 }
+
+.doIt{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #4cae4c;
+}
