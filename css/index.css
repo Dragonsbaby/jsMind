@@ -1,6 +1,9 @@
+html,body{
+    height:100%;
+}
 #jsmind_container{
-    width:800px;
-    height:500px;
+    width:50%;
+    height:50%;
     border:solid 1px #ccc;
     /*background:#f4f4f4;*/
     background:#f4f4f4;
